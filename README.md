@@ -11,9 +11,23 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 
 
 
-**Abstract:** This project is the result of a development of an AR-optimized assembly instructions
-for the AR headset HoloLens 2 from Microsoft. This system was developed taking into
-account current findings and results from works that deals with the topic of AR in training,
-assembly and maintenance tasks. The system is also able to record the user's hand, head and
-eye movements and save them for later evaluation. For further work, a guide, and
-instructions for using the system have been prepared.
+**Summary:** This project is the (by)product of a bachelor thesis dealing with the development of an AR-optimized Manufacturing-Assistant system for the HoloLens 2.
+This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
+assembly and maintenance tasks.  
+
+
+
+
+**Feature Overview:**
+
+*Digital Twin:*
+In its core-function AroMa uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
+position and direction are shown. 
+
+<p align="center">
+  <a img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>
+</p>
+
+
+
+**Feature Overview:**
