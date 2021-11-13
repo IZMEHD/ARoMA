@@ -9,7 +9,7 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 
 
 
-**Summary:** 
+***Summary:*** 
 This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
 assembly and maintenance tasks. 
@@ -20,7 +20,7 @@ with *this* program.
 
 
 
-**Feature Overview:**
+***Feature Overview:***
 
 *Digital Twin:*
 In its core-function AroMa uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
