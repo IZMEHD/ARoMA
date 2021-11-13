@@ -36,16 +36,9 @@ Sample Text
 </p>
 
 *Next Chapter:*
-<div id="banner">
-    <div class="inline-block">
-        <src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
-    </div>
-
-    <div class="inline-block">
-        <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
-    </div>
-
-    <div class="inline-block">
-        <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
-    </div>
-</div>
+<p float="left">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" />
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" /> 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" />
+</p>
+ 
