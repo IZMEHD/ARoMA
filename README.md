@@ -36,6 +36,13 @@ position and direction are shown.
 It is possible, during the setup process, to designate part-bins, which are then, during asasembly,  highlightet and accompanied by numbers to indicate to the user what and how many parts are required 
 for a given step.
 
+*Proccess Indicator:*
+During assembly the current assembly-step and the total amount of steps are shown close to the users right(per default, but can be changed) hand.
+
+*Voice commands:*
+Via the voice command "Next" the subsequent assembly step can be initiated. 
+
+
  
 
 *Next Chapter:*
