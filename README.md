@@ -30,6 +30,22 @@ position and direction are shown.
 
 
 *Part Amount Indicator:*
+Sample Text
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 > 
 </p>
+
+*Next Chapter:*
+<div id="banner">
+    <div class="inline-block">
+        <src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
+    </div>
+
+    <div class="inline-block">
+        <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
+    </div>
+
+    <div class="inline-block">
+        <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif'>
+    </div>
+</div>
