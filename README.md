@@ -4,15 +4,18 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>
-  
+  <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>  
 </p>
 
 
 
-**Summary:** This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
+**Summary:** 
+This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
-assembly and maintenance tasks.  
+assembly and maintenance tasks. 
+The main purpose of this system is to guide a inexperienced user(i.e. a trainee of some kind) through a manuel assembly or maintenance task.
+Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can late be visualized, for example 
+with *this* program.
 
 
 
@@ -24,7 +27,7 @@ In its core-function AroMa uses a digital twin to show the current assembly step
 position and direction are shown. 
 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=450 > 
 </p>
 
 
@@ -32,13 +35,13 @@ position and direction are shown.
 *Part Amount Indicator:*
 Sample Text
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=450 > 
 </p>
 
 *Next Chapter:*
 <p float="left">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" />
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" /> 
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width="100" />
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" />
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" /> 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" />
 </p>
  
