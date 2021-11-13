@@ -27,16 +27,16 @@ In its core-function AroMa uses a digital twin to show the current assembly step
 position and direction are shown. 
 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=450 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=550 > 
 </p>
 
 
 
 *Part Amount Indicator:*
-Sample Text
-<p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=450 > 
-</p>
+It is possible, during the setup process, to designate part-bins, which are then, during asasembly,  highlightet and accompanied by numbers to indicate to the user what and how many parts are required 
+for a given step.
+
+ 
 
 *Next Chapter:*
 <p float="left">
