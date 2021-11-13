@@ -9,7 +9,8 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 
 
 
-***Summary:*** 
+***Summary*** 
+
 This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
 assembly and maintenance tasks. 
@@ -20,7 +21,7 @@ with *this* program.
 
 
 
-***Feature Overview:***
+***Feature Overview***
 
 *Digital Twin:*
 In its core-function AroMa uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
@@ -32,14 +33,14 @@ position and direction are shown.
 
 
 
-*Part Amount Indicator:*
+**Part Amount Indicator:**
 It is possible, during the setup process, to designate part-bins, which are then, during asasembly,  highlightet and accompanied by numbers to indicate to the user what and how many parts are required 
 for a given step.
 
-*Proccess Indicator:*
+**Proccess Indicator:**
 During assembly the current assembly-step and the total amount of steps are shown close to the users right(per default, but can be changed) hand.
 
-*Voice commands:*
+**Voice commands:**
 Via the voice command "Next" the subsequent assembly step can be initiated. 
 
 
