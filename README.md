@@ -25,7 +25,7 @@ In its core-function AroMa uses a digital twin to show the current assembly step
 position and direction are shown. 
 
 <p align="center">
-  <a img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>
 </p>
 
 
