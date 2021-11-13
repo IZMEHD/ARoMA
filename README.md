@@ -10,7 +10,7 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 
 
 
-**Summary:** This project is the (by)product of a bachelor thesis dealing with the development of an AR-optimized Manufacturing-Assistant system for the HoloLens 2.
+**Summary:** This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
 assembly and maintenance tasks.  
 
@@ -24,9 +24,12 @@ In its core-function AroMa uses a digital twin to show the current assembly step
 position and direction are shown. 
 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 > 
 </p>
 
 
 
-**Feature Overview:**
+*Part Amount Indicator:*
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 > 
+</p>
