@@ -51,17 +51,20 @@ Via the voice command "Next" the subsequent assembly step can be initiated.
 
  
 
-*Software*
+*Software:*
 
 Unity 2019 or higher (https://unity.com) 
+
 MixedRealityToolkit for Unity (https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05)
 
 Visual Studio 2019 or higher (https://visualstudio.microsoft.com)
+
 3D modeling programm that can export *.obj*-files. (this project did use TinkerCad (https://www.tinkercad.com))
+
 Microsoft Excell
 
 
-*Hardware*
+*Hardware:*
 
 HoloLens 2 Microsoft 
 
