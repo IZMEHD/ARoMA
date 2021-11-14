@@ -106,7 +106,7 @@ Now mark all 3D objekts and drop them into the "3D_Model" game objekt in the sce
 You can now position and rotate your 3D model onto the build-platform. 
 Save the scene. 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace' width=550 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace.gif' width=550 > 
 </p>
 
 
