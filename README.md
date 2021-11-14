@@ -21,7 +21,7 @@ with *this* program.
 
 
 
-***Feature Overview***
+# Feature Overview
 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=550 > 
@@ -55,6 +55,7 @@ Via the voice command "Next" the subsequent assembly step can be initiated.
 
 Unity 2019 or higher (https://unity.com) 
 MixedRealityToolkit for Unity (https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05)
+
 Visual Studio 2019 or higher (https://visualstudio.microsoft.com)
 3D modeling programm that can export *.obj*-files. (this project did use TinkerCad (https://www.tinkercad.com))
 Microsoft Excell
@@ -80,12 +81,33 @@ You will find that there are already some obj. files. These are some 3D models y
 **Step 3: Start Unity**
 To start the project in Unity go to "ARoMA-main\Assets" and klick on "Assembly.unity".
 After this unity will prepeare the envirement. This step might take a moment.
-When unity opens a dialog window  "MRTK Project Configurator" opens. 
-Klick on "Unity OpenXR plugin". After this unity may asks you if to enable the backends. Hiere you klick on "no".
+When unity opens a dialog window  "MRTK Project Configurator" opens. Klick on "Skip This Step" then on "Next" and after that on "Done". 
+ 
 
 
-**Step 3: Start Unity**
+**Step 3: Setup the Projekt**
 
+*Prepare the 3D model*
+
+In the project hieracie navigate to "Assets > HD > 3D Objects.
+Mark all 3D objekts(hold SHIFT + klick on first object in list -> klick on last object) 
+and klick on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and klick on "Apply"
+(Depending on the size of your 3D model you might need to adjust the Scale Factor)
+
+
+
+*Place the 3D model*
+
+Now mark all 3D objekts and drop them into the "3D_Model" game objekt in the scene. 
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/MarkAll3DFilesAndMoveTo3DModel.gif' width=550 > 
+</p>
+
+You can now position and rotate your 3D model onto the build-platform. 
+Save the scene. 
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace' width=550 > 
+</p>
 
 
 
