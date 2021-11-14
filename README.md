@@ -65,7 +65,8 @@ Microsoft Excell
 
 
 *Hardware:*
-
+ 
+	
 HoloLens 2 Microsoft 
 
 
