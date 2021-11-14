@@ -100,13 +100,13 @@ and klick on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.
 
 Now mark all 3D objekts and drop them into the "3D_Model" game objekt in the scene. 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/MarkAll3DFilesAndMoveTo3DModel.gif' width=550 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/MarkAll3DFilesAndMoveTo3DModel.gif' width=850 > 
 </p>
 
 You can now position and rotate your 3D model onto the build-platform. 
 Save the scene. 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace.gif' width=550 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace.gif' width=850 > 
 </p>
 
 
