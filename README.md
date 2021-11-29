@@ -108,10 +108,121 @@ Now mark all 3D objekts and drop them into the "3D_Model" game objekt in the sce
 </p>
 
 You can now position and rotate your 3D model onto the build-platform. 
-Save the scene. 
+
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/RotateAndPlace.gif' width=850 > 
 </p>
+
+
+After positioning all parts you need to ad the "AnimationSlave" script to all the 3D parts. 
+Every game object under "3D_Model" should have one "AnimationSlave" attached to it (exept "AssemblyBase" if you want to use it, if not you can delete it).
+Save the scene. 
+
+**Step 4: Determine build and animation sequence**
+
+*Sequence*
+Now we want to tell the program at which step the different parts should be displayed and animated.
+To do that we need the "Order Of Activity.xlsx" file. Under "Name" you enter the names of your 3D models of your individual components. 
+These names should be the the same as in "3D_Model" in your Unity hierachy. 
+Now under "Step" you enter a "1" for every step at which the component should be displayed. 
+
+*Animation*
+The first time a component appears during an assambly it will be animated acording to the two parameters you can enter
+under "Direction" and "Distance". 
+"Direction" is the the direction from where the part moves to its final assembly possition.
+Valid directions are "Down", "Up", "Back", "Forward", "Left" and "Right"
+"Distance" is the distance the part starts the animation from to its final assembly possition( "0.1" is a good start) .
+If you dont want a part to be animated set "Direction" to any of the valid directions and "Distance" to "0.0".
+
+In the end your "Order Of Activity.xlsx" file should lock something like this:
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/OrderOfActivityDemo.JPG' width=650 > 
+</p>
+
+Now navigate to the "3D_Model" game object in the Hierachy-window in Unity.
+Go to the Inspector-window and now copy the content of cell B1 of the "Order Of Activity.xlsx" 
+into the "Order Of Activity" field. 
+
+
+**Step 5: Define order of component bins**
+
+Open the "Zone Activity.xlsx" file. Here you can enter at what step, how many and from which Box components should be picked.
+
+For example: You need "Item 1" for step-1 two times, for step-5 two times. Also you need one "Item 2" for step-1 , for step-8 five times.
+Then your "Zone Activity.xlsx" should look like this:
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/ZoneActivityDemo.JPG' width=650 > 
+</p>
+
+*Note: If you not intent to use this feature just fill in "1" for the first box for the amount of assembly steps you have.*
+You do not need to fill the "Note" fields. They are just for convenience to keep track which box contains what part. 
+
+
+Now navigate to the "AssemblyDirector" game object in the Hierachy-window in Unity.
+Go to the Inspector-window and now copy the content of cell B1 of the "Order Of Activity.xlsx" 
+into the "Zone Activity" field. 
+
+ 
+
+
+**Step 6: Test in Editor**
+At this Point you should be able to test the assembly in Unity. 
+For this click on "Play". By clicking "Next" you can go trough the assembly process. At all times you should be
+able to press the "Restart" button to restart the assembly process. 
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/InEditorView.gif' width=650 > 
+</p>
+
+If everything looks good you can now deploy the program to the HoloLens 2. 
+
+
+
+
+**Step 7: Deployment to HoloLens 2 via Wifi**
+Note: This is just one of multiple methods to deploy a program to the HoloLens 2.   
+
+First you go to "File" (in Unity), then "Build settings..." 
+Then make sure your settings look like this:
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/BuildSettings2.JPG' width=650 > 
+</p>
+
+Click "Switch Platform" and then "Build". Unity should ask you where to save the build, you can create a folder "Build" in 
+your project folder and save it there. 
+Whene Unity is done navigate to the buld folder and click on the ".sln" file. 
+Now navigate to your Project folder and open the "Fittslaw.sln". 
+In Visual Studio go to "Project" then "Propertys". For Configuration select "Release" and for Platform select "ARM64".
+Now under "General" -> "Debugging" enter the IP of your HoloLens 2 under "Machine Name". To get the IP of your HoloLens 2 just say "What is my IP" while wearing it.
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig1.JPG' width=650 > 
+</p>
+
+Now also set "Release" and "ARM64" like this:
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig1.JPG' width=650 > 
+</p>
+
+At this point make sure the HoloLens 2 is on and conected to the same WiFi as your computer. 
+Click on "Remote Machine". Visual Studio should now transfer the program to your HoloLens 2. This might take some time. 
+After Visual Studio is done the program should start on the HoloLens 2.
+
+
+
+
+
+**ToDo**
+
+1.Recording & Replay / Disable Recording
+2.Verify instructions
+3.Polishing
+4.How to add Hint Text and Image
+5.How to add Hint Video
+ 
 
 
 
