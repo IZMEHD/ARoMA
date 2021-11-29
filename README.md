@@ -14,8 +14,8 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
 assembly and maintenance tasks. 
-The main purpose of this system is to guide a inexperienced user(e.g. a trainee of some kind) through a manual assembly or maintenance task.
-Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can late be visualized, for example 
+The main purpose of this system is to guide an inexperienced user (e.g. a trainee of some kind) through a manual assembly or maintenance task.
+Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can later be visualized, for example 
 with *this* program.
 
 
@@ -30,15 +30,15 @@ with *this* program.
 
 **Digital Twin:**
 In its core-function *AroMa* uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
-position and direction are shown. Additionally the user can always grab the twin and manipulate its position, orentation and size.
+position and direction are shown. Additionally the user can always grab the twin and manipulate its position, orientation and size.
 
 
 **Part Amount Indicator:**
-It is possible, during the setup process, to designate part-bins, which are then, during asasembly,  highlightet and accompanied by numbers to indicate to the user what and how many parts are required 
+It is possible, during the setup process, to designate part-bins, which are then, during assembly,  highlighted and accompanied by numbers to indicate to the user what and how many parts are required 
 for a given step.
 
 **Proccess Indicator:**
-During assembly the current assembly-step and the total amount of steps are shown close to the users right(per default, but can be changed) hand.
+During assembly the current assembly-step and the total amount of steps are shown close to the users right hand. Per default, the right hand but it can be changed.
 
 **Voice commands:**
 Via the voice command "Next" the subsequent assembly step can be initiated. 
@@ -59,9 +59,9 @@ MixedRealityToolkit for Unity (https://docs.microsoft.com/en-us/windows/mixed-re
 
 Visual Studio 2019 or higher (https://visualstudio.microsoft.com)
 
-3D modeling programm that can export *.obj*-files. (this project did use TinkerCad (https://www.tinkercad.com))
+3D modeling program that can export *.obj*-files. (this project did use TinkerCad (https://www.tinkercad.com))
 
-Microsoft Excell
+Microsoft Excel
 
 
 *Hardware:*
@@ -74,18 +74,18 @@ HoloLens 2 Microsoft
 
 **Step 1: Download the Project**
 
-Download the project ZIP file and unpack it to a disired location(e.g. Desktop)
+Download the project ZIP file and unpack it to a desired location (e.g. Desktop).
  
 **Step 2: Importing the 3D-Data**
 
-To import the data for the 3D twin move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
+To import the data for the 3D twin, move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
 You will find that there are already some obj. files. These are some 3D models you might want to use *later*.
 
 
 **Step 3: Start Unity**
 To start the project in Unity go to "ARoMA-main\Assets" and klick on "Assembly.unity".
-After this unity will prepeare the envirement. This step might take a moment.
-When unity opens a dialog window  "MRTK Project Configurator" opens. Klick on "Skip This Step" then on "Next" and after that on "Done". 
+After this, Unity will prepare the environment. This step might take a moment.
+When Unity opens a dialogue window  "MRTK Project Configurator" opens. Click on "Skip This Step" then on "Next" and after that on "Done". 
  
 
 
@@ -93,16 +93,16 @@ When unity opens a dialog window  "MRTK Project Configurator" opens. Klick on "S
 
 *Prepare the 3D model*
 
-In the project hieracie navigate to "Assets > HD > 3D Objects.
-Mark all 3D objekts(hold SHIFT + klick on first object in list -> klick on last object) 
-and klick on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and klick on "Apply"
+In the project hierachy navigate to "Assets > HD > 3D Objects.
+Mark all 3D objects (hold SHIFT + klick on first object in list -> klick on last object) 
+and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and click on "Apply"
 (Depending on the size of your 3D model you might need to adjust the Scale Factor)
 
 
 
 *Place the 3D model*
 
-Now mark all 3D objekts and drop them into the "3D_Model" game objekt in the scene. 
+Now mark all 3D objects and drop them into the "3D_Model" game object in the scene. 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/MarkAll3DFilesAndMoveTo3DModel.gif' width=850 > 
 </p>
@@ -114,7 +114,7 @@ You can now position and rotate your 3D model onto the build-platform.
 </p>
 
 
-After positioning all parts you need to ad the "AnimationSlave" script to all the 3D parts. 
+After positioning all parts you need to add the "AnimationSlave" script to all the 3D parts. 
 Every game object under "3D_Model" should have one "AnimationSlave" attached to it (exept "AssemblyBase" if you want to use it, if not you can delete it).
 Save the scene. 
 
@@ -127,12 +127,12 @@ These names should be the the same as in "3D_Model" in your Unity hierachy.
 Now under "Step" you enter a "1" for every step at which the component should be displayed. 
 
 *Animation*
-The first time a component appears during an assambly it will be animated acording to the two parameters you can enter
+The first time a component appears during an assembly it will be animated acording to the two parameters you can enter
 under "Direction" and "Distance". 
 "Direction" is the the direction from where the part moves to its final assembly possition.
 Valid directions are "Down", "Up", "Back", "Forward", "Left" and "Right"
 "Distance" is the distance the part starts the animation from to its final assembly possition( "0.1" is a good start) .
-If you dont want a part to be animated set "Direction" to any of the valid directions and "Distance" to "0.0".
+If you don't want a part to be animated set "Direction" to any of the valid directions and "Distance" to "0.0".
 
 In the end your "Order Of Activity.xlsx" file should lock something like this:
 
@@ -156,7 +156,7 @@ Then your "Zone Activity.xlsx" should look like this:
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/ZoneActivityDemo.JPG' width=650 > 
 </p>
 
-*Note: If you not intent to use this feature just fill in "1" for the first box for the amount of assembly steps you have.*
+*Note: If you do not intent to use this feature just fill in "1" for the first box for the amount of assembly steps you have.*
 You do not need to fill the "Note" fields. They are just for convenience to keep track which box contains what part. 
 
 
@@ -169,7 +169,7 @@ into the "Zone Activity" field.
 
 **Step 6: Test in Editor**
 At this Point you should be able to test the assembly in Unity. 
-For this click on "Play". By clicking "Next" you can go trough the assembly process. At all times you should be
+For this click on "Play". By clicking "Next" you can go through the assembly process. At all times you should be
 able to press the "Restart" button to restart the assembly process. 
 
 <p align="center">
@@ -193,7 +193,7 @@ Then make sure your settings look like this:
 
 Click "Switch Platform" and then "Build". Unity should ask you where to save the build, you can create a folder "Build" in 
 your project folder and save it there. 
-Whene Unity is done navigate to the buld folder and click on the ".sln" file. 
+When Unity is done, navigate to the build folder and click on the ".sln" file. 
 Now navigate to your Project folder and open the "Fittslaw.sln". 
 In Visual Studio go to "Project" then "Propertys". For Configuration select "Release" and for Platform select "ARM64".
 Now under "General" -> "Debugging" enter the IP of your HoloLens 2 under "Machine Name". To get the IP of your HoloLens 2 just say "What is my IP" while wearing it.
@@ -207,7 +207,7 @@ Now also set "Release" and "ARM64" like this:
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig1.JPG' width=650 > 
 </p>
 
-At this point make sure the HoloLens 2 is on and conected to the same WiFi as your computer. 
+At this point make sure the HoloLens 2 is on and connected to the same WiFi as your computer. 
 Click on "Remote Machine". Visual Studio should now transfer the program to your HoloLens 2. This might take some time. 
 After Visual Studio is done the program should start on the HoloLens 2.
 
