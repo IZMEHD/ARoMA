@@ -74,7 +74,7 @@ HoloLens 2 Microsoft
 
 **Step 1: Download the Project**
 
-Simply download the project ZIP file and unpack it to a disired location(e.g. Desktop)
+Download the project ZIP file and unpack it to a disired location(e.g. Desktop)
  
 **Step 2: Importing the 3D-Data**
 
