@@ -14,7 +14,7 @@ Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izme
 This project is the (by)product of a bachelor thesis dealing with the development of an "AR-optimized Manufacturing-Assistant" system for the HoloLens 2.
 This system was developed taking into account current findings and results from works that deals with the topic of AR in training,
 assembly and maintenance tasks. 
-The main purpose of this system is to guide a inexperienced user(e.g. a trainee of some kind) through a manuel assembly or maintenance task.
+The main purpose of this system is to guide a inexperienced user(e.g. a trainee of some kind) through a manual assembly or maintenance task.
 Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can late be visualized, for example 
 with *this* program.
 
