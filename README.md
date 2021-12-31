@@ -249,8 +249,8 @@ Now open "AssemblyTaskVisualization\AssemblyTaskVisualization\Assets\AssemblyTas
 
 
 
-**Step 3: Replay the Recording with the visualizer***
-Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
+**Step 3: Replay the Recording with the visualizer*** <br />
+Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a><br />
 
 Now we can load the data from the visualizer. To do that first cilck on "Select Folder" and navigate to the recordings you previously downloaded. Select the folder of the recording
 you want to replay. <br />
