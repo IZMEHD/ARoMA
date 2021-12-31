@@ -252,7 +252,7 @@ Now open "AssemblyTaskVisualization\AssemblyTaskVisualization\Assets\AssemblyTas
 **Step 3: Replay the Recording with the visualizer***
 
 <p align="center">
-  <a href="https://youtu.be/rYfoGmanZhE"><img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/imgsezgif-5-d49a27bcad.gif' width=450 ></a>  
+  <a href="https://youtu.be/rYfoGmanZhE"></a>  
 </p>
 Now we can load the data from the visualizer. To do that first cilck on "Select Folder" and navigate to the recordings you previously downloaded. Select the folder of the recording
 you want to replay. <br />
