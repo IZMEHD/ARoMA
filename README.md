@@ -243,10 +243,24 @@ When all worked, you have now the option to download the data do the DownloadDat
 
 
 
-**Step 2: Download Data***
-Now we can load the data from the visualizer. To do that start unity and run ... . Now press ... and navigate to the DownladData folder and select the folder of the
-recording you want to replay. 
+**Step 2: Unpack and start the visualizer***
+Unpack the the "AssemblyTaskVisualization.zip" file from "ARoMA\Extra Files\AssemblyTaskVisualization".
+Now open "AssemblyTaskVisualization\AssemblyTaskVisualization\Assets\AssemblyTaskVisualization.unity" with Unity.
 
+
+
+**Step 3: Replay the Recording with the visualizer***
+
+<p align="center">
+  <a href="https://youtu.be/rYfoGmanZhE"><img src='https://youtu.be/rYfoGmanZhE' width=450 ></a>  
+</p>
+Now we can load the data from the visualizer. To do that first cilck on "Select Folder" and navigate to the recordings you previously downloaded. Select the folder of the recording
+you want to replay. <br />
+Then select the step you want to visualize by entering it in the filed next to "Set Page" and the click "Set Page".
+Now you can Play/Pause the recording or single-step through the recording by pressing "Step -" or "Step +" while the replay is paused.
+  
+ 
+ 
 
 
 **ToDo**
