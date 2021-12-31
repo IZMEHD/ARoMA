@@ -215,20 +215,22 @@ After Visual Studio is done the program should start on the HoloLens 2.
 
 # Recording & Replay (optional)
 
-ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step/build-complete). 
+ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 
-**Step 0: Prerequisites***
+**Step 0: Prerequisites**
 To download the data from the HoloLens you neet to get Spyder(Anaconda) and the Python scripts from the folder ARoMA/DownloadData
 
 
-**Step 1: Download Data***
+**Step 1: Download Data**
 Start Anaconda/Spyder as admin. Next you enter these commands one at a time:
 
 
 
 cd ***Path to the DownloadData folder***
 pip install opencv
+
 import cv2
+
 run recorder_console_app.py --dev_portal_address ***ip address of the HoloLens*** --workspace_path "***Path to the DownloadData folder***"  --dev_portal_username "***your Username***"--dev_portal_password "***your password***"
 
 
@@ -236,12 +238,14 @@ Here an example what is can look like:
 
 
 cd C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData
+
 pip install opencv
+
 import cv2
 run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "1234556789"
 
 
-When all worked well you have now the option to download the data do the DownloadData folder. 
+When all worked, you have now the option to download the data do the DownloadData folder. 
 
 
 
