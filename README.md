@@ -215,6 +215,13 @@ After Visual Studio is done the program should start on the HoloLens 2.
 
 # Recording & Replay (optional)
 
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/Demovisualisation.gif' width=650 > 
+</p>
+
+
+
 ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 
 **Step 0: Prerequisites**
