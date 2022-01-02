@@ -9,7 +9,7 @@ This system was developed taking into account current findings and results from 
 assembly and maintenance tasks. 
 The main purpose of this system is to guide an inexperienced user (e.g. a trainee of some kind) through a manual assembly or maintenance task.
 Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can later be visualized, for example 
-with [this](#rrecording-and-repla) provided program.
+with [this](#rrecording-and-replay) provided program.
 
 
 ### Table of Contents
@@ -78,7 +78,7 @@ Download the project ZIP file and unpack it to a desired location (e.g. Desktop)
 
 To import the data for the 3D twin, move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
 You will find that there are already some obj. files. These are some 3D models you might want to use later.
-This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](#https://github.com/IZMEHD/ARoMA/blob/main/Extra-Files/Demo/3D Objects)**.  
+This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](#https://github.com/IZMEHD/ARoMA/blob/main/Extra-Files/Demo/3D_Objects)**.  
 
 
 **Step 3: Start Unity**
