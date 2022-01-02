@@ -9,7 +9,7 @@ This system was developed taking into account current findings and results from 
 assembly and maintenance tasks. 
 The main purpose of this system is to guide an inexperienced user (e.g. a trainee of some kind) through a manual assembly or maintenance task.
 Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can later be visualized, for example 
-with [this](https://www.google.com) program.
+with [this](#recording-&-replay) provided program.
 
 
 ### Table of Contents
@@ -17,7 +17,7 @@ with [this](https://www.google.com) program.
 **[Prerequisites](#prerequisites)**<br>
 **[Setup](#setup)**<br>
 **[Assembly Setup (optional)](#assembly-setup)**<br>
-**[Recording & Replay (optional)](#recording-&-replay-(optional))**<br>
+**[Recording & Replay (optional)](#recording-&-replay)**<br>
  
 
 ## Feature Overview
@@ -27,22 +27,22 @@ with [this](https://www.google.com) program.
 </p>
 
 
-**Digital Twin:**
-In its core-function *AroMa* uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
+**Digital Twin:**<br />
+In its core-function *ARoMA* uses a digital twin to show the current assembly step and highlights step-relevant parts by animating them in such a way that mounting 
 position and direction are shown. Additionally the user can always grab the twin and manipulate its position, orientation and size.
+<br />
 
-
-**Part Amount Indicator:**
+**Part Amount Indicator:**<br />
 It is possible, during the setup process, to designate part-bins, which are then, during assembly,  highlighted and accompanied by numbers to indicate to the user what and how many parts are required 
 for a given step.
-
-**Proccess Indicator:**
+<br />
+**Proccess Indicator:**<br />
 During assembly the current assembly-step and the total amount of steps are shown close to the users right hand. Per default, the right hand but it can be changed.
-
-**Voice commands:**
+<br />
+**Voice commands:**<br />
 Via the voice command "Next" the subsequent assembly step can be initiated. 
-
-**Display of additional informations:**
+<br />
+**Display of additional informations:**<br />
 Via the voice command "Next" the subsequent assembly step can be initiated. 
 
 
@@ -50,7 +50,7 @@ Via the voice command "Next" the subsequent assembly step can be initiated.
 
  
 
-*Software:*
+**Software:**<br />
 
 Unity 2019 or higher (https://unity.com) 
 
@@ -61,11 +61,10 @@ Visual Studio 2019 or higher (https://visualstudio.microsoft.com)
 3D modeling program that can export *.obj*-files. (this project did use TinkerCad (https://www.tinkercad.com))
 
 Microsoft Excel
+<br />
 
-
-*Hardware:*
- 
-	
+**Hardware:**<br />
+ 	
 HoloLens 2 Microsoft 
 
 
@@ -78,7 +77,8 @@ Download the project ZIP file and unpack it to a desired location (e.g. Desktop)
 **Step 2: Importing the 3D-Data**
 
 To import the data for the 3D twin, move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
-You will find that there are already some obj. files. These are some 3D models you might want to use *later*.
+You will find that there are already some obj. files. These are some 3D models you might want to use later.
+This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](#https://github.com/IZMEHD/ARoMA/blob/main/Extra Files/Demo/3D Objects)**.  
 
 
 **Step 3: Start Unity**
@@ -231,7 +231,7 @@ If you need less zones just delete the Zone-objects, starting with the the hight
 
 
 
-## Recording & Replay (optional)
+## Recording & Replay
 
 ARoMA can record the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 If you are not interested you can disable this function in the ARoMA program in Unity. In the Hierarchy go to AssemblyDirector->CursorFocus and uncheck the "World Cursor" Script in the Inspector window. 
