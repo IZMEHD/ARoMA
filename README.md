@@ -9,12 +9,14 @@ This system was developed taking into account current findings and results from 
 assembly and maintenance tasks. 
 The main purpose of this system is to guide an inexperienced user (e.g. a trainee of some kind) through a manual assembly or maintenance task.
 Additionally the system allows the HoloLens 2 sensors to record the user's hand and head movements. These recordings can later be visualized, for example 
-with *this* program.
+with [this](https://www.google.com) program.
 
 
+### Table of Contents
+**[Feature Overview](#feature-overview)**<br>
+**[Prerequisites](#prerequisites)**<br>
 
-
-# Feature Overview
+## Feature Overview
 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width=550 > 
@@ -40,7 +42,7 @@ Via the voice command "Next" the subsequent assembly step can be initiated.
 Via the voice command "Next" the subsequent assembly step can be initiated. 
 
 
- # Prerequisites
+## Prerequisites
 
  
 
@@ -244,19 +246,19 @@ To download the data from the HoloLens you neet to get Spyder(Anaconda) and the 
 **Step 1: Download Data**
 Start Anaconda/Spyder as admin. Next you enter these commands one at a time:
 ```
-cd ***Path to the DownloadData folder***<br />
-pip install opencv<br />
-import cv2<br />
-run recorder_console_app.py --dev_portal_address ***ip address of the HoloLens*** --workspace_path "***Path to the DownloadData folder***"  --dev_portal_username "***your Username***"--dev_portal_password "***your password***"<br />
+cd *Path to the DownloadData folder*
+pip install opencv
+import cv2
+run recorder_console_app.py --dev_portal_address *ip address of the HoloLens* --workspace_path "*Path to the DownloadData folder*"  --dev_portal_username "*your Username*"--dev_portal_password "*your password*"
 ```
 
 Here an example what is can look like:
 
 ```
-cd C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData<br />
-pip install opencv<br />
-import cv2<br />
-run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "1234556789"<br />
+cd C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData
+pip install opencv
+import cv2
+run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "1234556789"
 ```
 
 When all worked, you have now the option to download the data do the DownloadData folder. 
@@ -283,11 +285,11 @@ Now you can Play/Pause the recording or single-step through the recording by pre
 
 **ToDo**
 
-1.Disable Recording
-2.Verify instructions
-3.Polishing
-4.How to add Hint Text and Image
-5.How to add Hint Video
+
+1.Verify instructions
+2.Polishing
+3.How to add Hint Text and Image
+4.How to add Hint Video
  
 
  
