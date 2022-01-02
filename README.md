@@ -16,8 +16,8 @@ with [this](https://www.google.com) program.
 **[Feature Overview](#feature-overview)**<br>
 **[Prerequisites](#prerequisites)**<br>
 **[Setup](#setup)**<br>
-**[Assembly Setup](#assembly-setup)**<br>
-**[Recording & Replay](#recording-&-replay)**<br>
+**[Assembly Setup (optional)](#assembly-setup)**<br>
+**[Recording & Replay (optional)](#recording-&-replay)**<br>
  
 
 ## Feature Overview
@@ -211,7 +211,7 @@ Click on "Remote Machine". Visual Studio should now transfer the program to your
 After Visual Studio is done the program should start on the HoloLens 2.
 
 
-##Assembly Setup (optional)
+##Assembly Setup
  
 **Setup of zones**
 After strting the application on the HoloLens you have the option to set up the bin-zones at there respectiv locations.
@@ -231,7 +231,7 @@ If you need less zones just delete the Zone-objects, starting with the the hight
 
 
 
-##Recording & Replay (optional)
+##Recording & Replay
 
 ARoMA can record the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 If you are not interested you can disable this function in the ARoMA program in Unity. In the Hierarchy go to AssemblyDirector->CursorFocus and uncheck the "World Cursor" Script in the Inspector window. 
