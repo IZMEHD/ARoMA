@@ -1,12 +1,5 @@
 # ARoMA: AR-optimized Manufacturing-Assistant for HoloLens 2 in Unity
  
-Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
-
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/DemoLegoBuildAndTwin.gif' width=450 ></a>  
-</p>
-
 
 
 ***Summary*** 
@@ -228,19 +221,20 @@ During and after an assembly you call also call the interface window to restart 
 **Adding more Zones**
 If you need more zones you can add them in the ARoMA program in Unity. In the Hierarchy go to HandUI->HandFollow->ZoneMagazine and copy a exiting zone and then change the number to the next highest
 value. For example, if you have 18 Zones and want to add two more, just coppy Zone_1 two times and cange the names of the new objects to "Zone_19" and "Zone_20".
-
+If you need less zones just delete the Zone-objects, starting with the the hightes values.
 
 
 
 # Recording & Replay (optional)
 
-ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
+ARoMA can record the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
+If you are not interested you can disable this function in the ARoMA program in Unity. In the Hierarchy go to AssemblyDirector->CursorFocus and uncheck the "World Cursor" Script in the Inspector window. 
 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/Demovisualisation.gif' width=650 > 
 </p>
 
-
+To get the recorded data and replay them follow the next steps:
 
 
 **Step 0: Prerequisites**
@@ -249,21 +243,21 @@ To download the data from the HoloLens you neet to get Spyder(Anaconda) and the 
 
 **Step 1: Download Data**
 Start Anaconda/Spyder as admin. Next you enter these commands one at a time:
-
+```
 cd ***Path to the DownloadData folder***<br />
 pip install opencv<br />
 import cv2<br />
 run recorder_console_app.py --dev_portal_address ***ip address of the HoloLens*** --workspace_path "***Path to the DownloadData folder***"  --dev_portal_username "***your Username***"--dev_portal_password "***your password***"<br />
-
+```
 
 Here an example what is can look like:
 
-
+```
 cd C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData<br />
 pip install opencv<br />
 import cv2<br />
 run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "1234556789"<br />
-
+```
 
 When all worked, you have now the option to download the data do the DownloadData folder. 
 
@@ -289,7 +283,7 @@ Now you can Play/Pause the recording or single-step through the recording by pre
 
 **ToDo**
 
-1.Recording & Replay / Disable Recording
+1.Disable Recording
 2.Verify instructions
 3.Polishing
 4.How to add Hint Text and Image
