@@ -212,9 +212,29 @@ Click on "Remote Machine". Visual Studio should now transfer the program to your
 After Visual Studio is done the program should start on the HoloLens 2.
 
 
+# Assembly Setup (optional)
+ 
+**Setup of zones**
+After strting the application on the HoloLens you have the option to set up the bin-zones at there respectiv locations.
+To do that say "Interface" and a widow over your right hand will appear. By pressing "Next" you can summon a Zone (starting with "Zone_1) which you can now place.
+To place the new zone just grab it with your left hand and move it to its location. You can close the placement-mode by again saying "Interface". 
+During and after an assembly you call also call the interface window to restart the assembly proccess. The Zones do not need to be placed again when you restart a assembly.
+
+<p align="center">
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/InterfaceAndSetup.gif' width=650 > 
+</p>
+
+
+**Adding more Zones**
+If you need more zones you can add them in the ARoMA program in Unity. In the Hierarchy go to HandUI->HandFollow->ZoneMagazine and copy a exiting zone and then change the number to the next highest
+value. For example, if you have 18 Zones and want to add two more, just coppy Zone_1 two times and cange the names of the new objects to "Zone_19" and "Zone_20".
+
+
+
 
 # Recording & Replay (optional)
 
+ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/Demovisualisation.gif' width=650 > 
@@ -222,7 +242,6 @@ After Visual Studio is done the program should start on the HoloLens 2.
 
 
 
-ARoMA automitically records the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 
 **Step 0: Prerequisites**
 To download the data from the HoloLens you neet to get Spyder(Anaconda) and the Python scripts from the folder ARoMA/DownloadData
