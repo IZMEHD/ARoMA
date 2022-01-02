@@ -93,13 +93,14 @@ In the project hierachy navigate to "Assets > HD > 3D Objects.
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/project_hierachy.JPG' width=850 > 
 </p>
+
 Mark all 3D objects (hold SHIFT + click on first object in list -> click on last object) 
 and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and click on "Apply"
-(Depending on the size of your 3D model you might need to adjust the Scale Factor)
+(Depending on the size of your 3D model you might need to adjust the Scale Factor).
 To color the 3D parts click on them individually and select in the Inspector window under "Materials"->"Remapped Materials" 
 a material of your choice. A small selection of colors is already provided.
-In case you need more colors or textures for your parts you might want to refer to [ARoMA/Extra Files/Demo/3D Objects](https://github.com/IZMEHD/ARoMA/tree/main/Extra%20Files/Demo/3D%20Objects). 
-[this hello](https://www.youtube.com/watch?v=IFlXvDZezBQ&ab_channel=Unity) and [This](https://www.youtube.com/watch?v=V72pMtqMgFk&t=4s&ab_channel=Zenva).
+In case you need more colors or textures for your parts you might want to refer to  
+[this](https://www.youtube.com/watch?v=IFlXvDZezBQ&ab_channel=Unity) and [this](https://www.youtube.com/watch?v=V72pMtqMgFk&t=4s&ab_channel=Zenva).
 
 
 
