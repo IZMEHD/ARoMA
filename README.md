@@ -17,7 +17,7 @@ with [this](https://www.google.com) program.
 **[Prerequisites](#prerequisites)**<br>
 **[Setup](#setup)**<br>
 **[Assembly Setup (optional)](#assembly-setup)**<br>
-**[Recording & Replay (optional)](#recording-&-replay)**<br>
+**[Recording & Replay (optional)](#recording-&-replay-(optional))**<br>
  
 
 ## Feature Overview
@@ -231,7 +231,7 @@ If you need less zones just delete the Zone-objects, starting with the the hight
 
 
 
-## Recording & Replay
+## Recording & Replay (optional)
 
 ARoMA can record the hand and head movement of the user for all build-steps(exept step 0 and last step(build-complete)). 
 If you are not interested you can disable this function in the ARoMA program in Unity. In the Hierarchy go to AssemblyDirector->CursorFocus and uncheck the "World Cursor" Script in the Inspector window. 
