@@ -78,7 +78,7 @@ Download the project ZIP file and unpack it to a desired location (e.g. Desktop)
 
 To import the data for the 3D twin, move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
 You will find that there are already some obj. files. These are some 3D models you might want to use later.
-This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](#https://https://github.com/IZMEHD/ARoMA/tree/main/Extra%20Files/Demo/3D%20Objects).  
+This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](https://https://github.com/IZMEHD/ARoMA/tree/main/Extra%20Files/Demo/3D%20Objects).  
 
 
 **Step 3: Start Unity**
