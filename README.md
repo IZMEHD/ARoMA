@@ -13,11 +13,11 @@ with [this](https://www.google.com) program.
 
 
 ### Table of Contents
-**[Feature1 Overview](#feature-overview)**<br>
+**[Feature Overview](#feature-overview)**<br>
 **[Prerequisites](#prerequisites)**<br>
 **[Setup](#setup)**<br>
-**[Assembly Setup](#assembly-setup-(optional))**<br>
-**[Recording & Replay](#recording-&-replay-(optional))**<br>
+**[Assembly Setup](#assembly-setup)**<br>
+**[Recording & Replay](#recording-&-replay)**<br>
  
 
 ## Feature Overview
