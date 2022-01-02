@@ -96,7 +96,7 @@ In the project hierachy navigate to "Assets > HD > 3D Objects.
 
 Mark all 3D objects (hold SHIFT + click on first object in list -> click on last object) 
 and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and click on "Apply"
-(Depending on the size of your 3D model you might need to adjust the Scale Factor).
+(Depending on the size of your 3D model you might need to adjust the Scale Factor).<br />
 To color the 3D parts click on them individually and select in the Inspector window under "Materials"->"Remapped Materials" 
 a material of your choice. A small selection of colors is already provided.
 In case you need more colors or textures for your parts you might want to refer to  
@@ -181,9 +181,8 @@ If everything looks good you can now deploy the program to the HoloLens 2.
 
 
 **Step 7: Deployment to HoloLens 2 via Wifi**<br />
-*Note: This is just one of multiple methods to deploy a program to the HoloLens 2 but only this way was tested.*
-First you go to "File" (in Unity), then click on "Build settings..." 
-Then make sure your settings look like this:
+*Note: This is just one of multiple methods to deploy a program to the HoloLens 2 but only this way was tested.*<br />
+First you go to "File" (in Unity), then click on "Build settings...". Under "Platform select "Universal Windows Platform" and make sure your settings look like this:
 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/BuildSettings2.JPG' width=650 > 
@@ -191,10 +190,9 @@ Then make sure your settings look like this:
 
 Click "Switch Platform" and then "Build". Unity should ask you where to save the build, you can create a folder "Build" in 
 your project folder and save it there. 
-When Unity is done, navigate to the build folder and click on the ".sln" file. 
-Now navigate to your Project folder and open the "Fittslaw.sln". 
+When Unity is done, navigate to your Build folder and open the "Fittslaw.sln". Visual Studio should start now. 
 In Visual Studio go to "Project" then "Properties". For Configuration, select "Release" and for Platform select "ARM64".
-Now under "General" -> "Debugging" enter the IP of your HoloLens 2 under "Machine Name". To get the IP of your HoloLens 2, just say, "What is my IP" while wearing it.
+Now under "Configuration Properties" -> "Debugging" enter the IP of your HoloLens 2 under "Machine Name" and then click on "OK". To get the IP of your HoloLens 2, just say, "What is my IP" while wearing it.
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig1.JPG' width=650 > 
 </p>
@@ -202,13 +200,12 @@ Now under "General" -> "Debugging" enter the IP of your HoloLens 2 under "Machin
 Now also set "Release" and "ARM64" like this:
 
 <p align="center">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig1.JPG' width=650 > 
+  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/VSConfig2.JPG' width=650 > 
 </p>
 
 At this point make sure the HoloLens 2 is on and connected to the same WiFi as your computer. 
 Click on "Remote Machine". Visual Studio should now transfer the program to your HoloLens 2. This might take some time. 
-After Visual Studio is done the program should start on the HoloLens 2.
-
+After Visual Studio is done the program should start on the HoloLens 2. On first start the program will ask for permissions which you should grand.
 
 ## Assembly Setup
  
