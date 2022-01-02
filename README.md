@@ -282,13 +282,6 @@ Now you can Play/Pause the recording or single-step through the recording by pre
  
  
 
-
-**ToDo**
-
-
-1.Verify instructions
-2.How to add Hint Text and Image
-3.How to add Hint Video
  
 
  
