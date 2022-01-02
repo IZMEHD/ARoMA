@@ -98,7 +98,7 @@ and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.
 (Depending on the size of your 3D model you might need to adjust the Scale Factor)
 To color the 3D parts click on them individually and select in the Inspector window under "Materials"->"Remapped Materials" 
 a material of your choice. A small selection of colors is already provided.
-In case you need more colors or textures for your parts you might want to refer to [this](https://www.youtube.com/watch?v=IFlXvDZezBQ&ab_channel=Unity) and [this](https://www.youtube.com/watch?v=V72pMtqMgFk&t=4s&ab_channel=Zenva).
+In case you need more colors or textures for your parts you might want to refer to [this hello](https://www.youtube.com/watch?v=IFlXvDZezBQ&ab_channel=Unity) and [This](https://www.youtube.com/watch?v=V72pMtqMgFk&t=4s&ab_channel=Zenva).
 
 
 
