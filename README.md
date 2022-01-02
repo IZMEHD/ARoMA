@@ -70,28 +70,25 @@ HoloLens 2 Microsoft
 
 ## Setup
 
-**Step 1: Download the Project**
-
+**Step 1: Download the Project**<br />
 Download the project ZIP file and unpack it to a desired location (e.g. Desktop).
  
-**Step 2: Importing the 3D-Data**
-
+**Step 2: Importing the 3D-Data**<br />
 To import the data for the 3D twin, move your obj. files into "ARoMA-main\Assets\HD\3D Objects" 
 You will find that there are already some obj. files. These are some 3D models you might want to use later.
 This project also provides some 3D files for testing purposes under [ARoMA/Extra Files/Demo/3D Objects](https://github.com/IZMEHD/ARoMA/tree/main/Extra%20Files/Demo/3D%20Objects).  
 
 
-**Step 3: Start Unity**
+**Step 3: Start Unity**<br />
 To start the project in Unity go to "ARoMA-main\Assets" and klick on "Assembly.unity".
 After this, Unity will prepare the environment. This step might take a moment.
 When Unity opens a dialogue window  "MRTK Project Configurator" opens. Click on "Skip This Step" then on "Next" and after that on "Done". 
  
 
 
-**Step 3: Setup the Projekt**
+**Step 4: Setup the Projekt**
 
-*Prepare the 3D model*
-
+*Prepare the 3D model*<br />
 In the project hierachy navigate to "Assets > HD > 3D Objects.
 Mark all 3D objects (hold SHIFT + klick on first object in list -> klick on last object) 
 and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.01 and click on "Apply"
@@ -99,8 +96,7 @@ and click on "Model" in the "Inspector" window. Now set the "Scale Factor" to 0.
 
 
 
-*Place the 3D model*
-
+*Place the 3D model*<br />
 Now mark all 3D objects and drop them into the "3D_Model" game object in the scene. 
 <p align="center">
   <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/MarkAll3DFilesAndMoveTo3DModel.gif' width=850 > 
@@ -117,22 +113,20 @@ After positioning all parts you need to add the "AnimationSlave" script to all t
 Every game object under "3D_Model" should have one "AnimationSlave" attached to it (exept "AssemblyBase" if you want to use it, if not you can delete it).
 Save the scene. 
 
-**Step 4: Determine build and animation sequence**
-
-*Sequence*
+**Step 4: Determine build and animation sequence**<br />
+*Sequence*<br />
 Now we want to tell the program at which step the different parts should be displayed and animated.
 To do that we need the "Order Of Activity.xlsx" file. Under "Name" you enter the names of your 3D models of your individual components. 
 These names should be the the same as in "3D_Model" in your Unity hierachy. 
 Now under "Step" you enter a "1" for every step at which the component should be displayed. 
 
-*Animation*
+*Animation*<br />
 The first time a component appears during an assembly it will be animated acording to the two parameters you can enter
 under "Direction" and "Distance". 
 "Direction" is the the direction from where the part moves to its final assembly possition.
 Valid directions are "Down", "Up", "Back", "Forward", "Left" and "Right"
 "Distance" is the distance the part starts the animation from to its final assembly possition( "0.1" is a good start) .
 If you don't want a part to be animated set "Direction" to any of the valid directions and "Distance" to "0.0".
-
 In the end your "Order Of Activity.xlsx" file should lock something like this:
 
 <p align="center">
@@ -144,10 +138,8 @@ Go to the Inspector-window and now copy the content of cell B1 of the "Order Of 
 into the "Order Of Activity" field. 
 
 
-**Step 5: Define order of component bins**
-
+**Step 5: Define order of component bins**<br />
 Open the "Zone Activity.xlsx" file. Here you can enter at what step, how many and from which Box components should be picked.
-
 For example: You need "Item 1" for step-1 two times, for step-5 two times. Also you need one "Item 2" for step-1 , for step-8 five times.
 Then your "Zone Activity.xlsx" should look like this:
 
@@ -156,17 +148,14 @@ Then your "Zone Activity.xlsx" should look like this:
 </p>
 
 *Note: If you do not intent to use this feature just fill in "1" for the first box for the amount of assembly steps you have.*
-You do not need to fill the "Note" fields. They are just for convenience to keep track which box contains what part. 
-
+You do not need to fill the "Note" fields. They are just for convenience to keep track which box contains what part. <br />
 
 Now navigate to the "AssemblyDirector" game object in the Hierachy-window in Unity.
 Go to the Inspector-window and now copy the content of cell B1 of the "Order Of Activity.xlsx" 
 into the "Zone Activity" field. 
 
  
-
-
-**Step 6: Test in Editor**
+**Step 6: Test in Editor**<br />
 At this Point you should be able to test the assembly in Unity. 
 For this click on "Play". By clicking "Next" you can go through the assembly process. At all times you should be
 able to press the "Restart" button to restart the assembly process. 
@@ -180,10 +169,9 @@ If everything looks good you can now deploy the program to the HoloLens 2.
 
 
 
-**Step 7: Deployment to HoloLens 2 via Wifi**
-Note: This is just one of multiple methods to deploy a program to the HoloLens 2.   
-
-First you go to "File" (in Unity), then "Build settings..." 
+**Step 7: Deployment to HoloLens 2 via Wifi**<br />
+*Note: This is just one of multiple methods to deploy a program to the HoloLens 2 but only this way was tested.*
+First you go to "File" (in Unity), then click on "Build settings..." 
 Then make sure your settings look like this:
 
 <p align="center">
@@ -213,7 +201,7 @@ After Visual Studio is done the program should start on the HoloLens 2.
 
 ## Assembly Setup
  
-**Setup of zones**
+**Setup of zones**<br />
 After strting the application on the HoloLens you have the option to set up the bin-zones at there respectiv locations.
 To do that say "Interface" and a widow over your right hand will appear. By pressing "Next" you can summon a Zone (starting with "Zone_1) which you can now place.
 To place the new zone just grab it with your left hand and move it to its location. You can close the placement-mode by again saying "Interface". 
@@ -224,7 +212,7 @@ During and after an assembly you call also call the interface window to restart 
 </p>
 
 
-**Adding more Zones**
+**Adding more Zones**<br />
 If you need more zones you can add them in the ARoMA program in Unity. In the Hierarchy go to HandUI->HandFollow->ZoneMagazine and copy a exiting zone and then change the number to the next highest
 value. For example, if you have 18 Zones and want to add two more, just coppy Zone_1 two times and cange the names of the new objects to "Zone_19" and "Zone_20".
 If you need less zones just delete the Zone-objects, starting with the the hightes values.
@@ -243,11 +231,11 @@ If you are not interested you can disable this function in the ARoMA program in 
 To get the recorded data and replay them follow the next steps:
 
 
-**Step 0: Prerequisites**
+**Step 0: Prerequisites**<br />
 To download the data from the HoloLens you neet to get Spyder(Anaconda) and the Python scripts from the folder ARoMA/DownloadData
 
 
-**Step 1: Download Data**
+**Step 1: Download Data**<br />
 Start Anaconda/Spyder as admin. Next you enter these commands one at a time:
 ```
 cd *Path to the DownloadData folder*
@@ -269,13 +257,13 @@ When all worked, you have now the option to download the data do the DownloadDat
 
 
 
-**Step 2: Unpack and start the visualizer***
+**Step 2: Unpack and start the visualizer**<br />
 Unpack the the "AssemblyTaskVisualization.zip" file from "ARoMA\Extra Files\AssemblyTaskVisualization".
 Now open "AssemblyTaskVisualization\AssemblyTaskVisualization\Assets\AssemblyTaskVisualization.unity" with Unity.
 
 
 
-**Step 3: Replay the Recording with the visualizer*** <br />
+**Step 3: Replay the Recording with the visualizer** <br />
 Demo video: <a href="https://youtu.be/rYfoGmanZhE"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a><br />
 
 Now we can load the data from the visualizer. To do that first cilck on "Select Folder" and navigate to the recordings you previously downloaded. Select the folder of the recording
