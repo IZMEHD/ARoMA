@@ -250,7 +250,7 @@ Now open "AssemblyTaskVisualization\AssemblyTaskVisualization\Assets\AssemblyTas
 
 
 **Step 3: Replay the Recording with the visualizer*** <br />
-Demo video: <a href="https://www.youtube.com/watch?v=M1uZh9A-Ros&ab_channel=izmeHD"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a><br />
+Demo video: <a href="https://youtu.be/rYfoGmanZhE"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a><br />
 
 Now we can load the data from the visualizer. To do that first cilck on "Select Folder" and navigate to the recordings you previously downloaded. Select the folder of the recording
 you want to replay. <br />
@@ -262,7 +262,7 @@ Now you can Play/Pause the recording or single-step through the recording by pre
 
 
 **ToDo**
- Hello
+
 1.Recording & Replay / Disable Recording
 2.Verify instructions
 3.Polishing
@@ -270,12 +270,4 @@ Now you can Play/Pause the recording or single-step through the recording by pre
 5.How to add Hint Video
  
 
-
-
-*Next Chapter:*
-<p float="left">
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" />
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" /> 
-  <img src='https://github.com/IZMEHD/ARoMA/blob/main/imgs/AssemblyLego1-4.gif' width="100" />
-</p>
  
