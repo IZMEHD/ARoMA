@@ -18,6 +18,7 @@ with [this](#recording-and-replay) provided program.
 **[Setup](#setup)**<br>
 **[Assembly Setup (optional)](#assembly-setup)**<br>
 **[Recording and Replay (optional)](#recording-and-replay)**<br>
+**[Additional assembly hints](#Additional-assembly-hints)**<br>
  
 
 ## Feature Overview
@@ -281,6 +282,16 @@ Now you can Play/Pause the recording or single-step through the recording by pre
   
  
  
+
+## Additional assembly hints
+It is possible to not only have the digital-twin as assembly guit, but also use supplementary text or image instructions.
+
+**Text**<br />
+For test hints simply use the provided "Hint1" object under "3D_Model" in the Hierarchy window. Under *Hint1->group_0_15277357->Canvas->Text* you can enter a instruction under the "Text" field in the Inspector window. 
+Then you use the Hint1 object like another component in your assembly. Add it to the "Order Of Activity Demo.xlsx". Copy and repeat as required.
+
+**Images**<br />
+For images delete the Canvas object. Then right-click on the group_0_15277357 object and under UI you can add a Image. 
 
  
 
