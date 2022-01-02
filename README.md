@@ -113,6 +113,7 @@ Every game object under "3D_Model" should have one "AnimationSlave" script attac
 Save the scene. 
 
 **Step 4: Determine build and animation sequence**<br />
+<br />
 *Sequence*<br />
 Now we want to tell the program at which step the different parts should be displayed and animated.
 To do that, we need the "Order Of Activity.xlsx" file. Under "Name" you enter the names of your 3D models of your individual components. 
@@ -249,7 +250,7 @@ Here an example, what is can look like:
 cd C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData
 pip install opencv
 import cv2
-run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "1234556789"
+run recorder_console_app.py --dev_portal_address 192.168.1.1 --workspace_path "C:\Users\JohnSmith\Desktop\ARoMa Git\ARoMA\DownloadData"  --dev_portal_username "JohnSmith"--dev_portal_password "ABCD123456789"
 ```
 
 When all worked, you have now the option to download the data do the "DownloadData" folder. 
