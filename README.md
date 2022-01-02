@@ -16,8 +16,8 @@ with [this](https://www.google.com) program.
 **[Feature1 Overview](#feature-overview)**<br>
 **[Prerequisites](#prerequisites)**<br>
 **[Setup](#setup)**<br>
-**[Assembly Setup](optional)(#assembly-setup-(optional))**<br>
-**[Recording & Replay](optional)(#recording-&-replay-(optional))**<br>
+**[Assembly Setup](#assembly-setup-(optional))**<br>
+**[Recording & Replay](#recording-&-replay-(optional))**<br>
  
 
 ## Feature Overview
