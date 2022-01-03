@@ -183,6 +183,7 @@ If everything looks good you can now deploy the program to the HoloLens 2.
 
 **Step 7: Deployment to HoloLens 2 via Wifi**<br />
 *Note: This is just one of multiple methods to deploy a program to the HoloLens 2 but only this way was tested.*<br />
+*For alternatives see https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/build-and-deploy-to-hololens*<br />
 First you go to "File" (in Unity), then click on "Build settings...". Under "Platform select "Universal Windows Platform" and make sure your settings look like this:
 
 <p align="center">
