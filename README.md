@@ -43,7 +43,9 @@ During assembly the current assembly-step and the total amount of steps are show
 **Voice commands:**<br />
 Via the voice command "Next" the subsequent assembly step can be initiated. 
 <br />
- 
+**Recording and Replay:**<br />
+ARoMA can record hand and head movement of the user. A program to replay the data is also provided.
+<br />
 
 
 ## Prerequisites
@@ -210,7 +212,8 @@ Click on "Remote Machine". Visual Studio should now transfer the program to your
 After Visual Studio is done the program should start on the HoloLens 2. On first start the program will ask for permissions which you should grand.
 
 ## Assembly Setup
- 
+*Note: This step is optional*<br /> 
+
 **Setup of zones**<br />
 After starting the application on the HoloLens you have the option to set up the bin-zones at their respective locations.
 To do that say "Interface" and a widow over your right hand will appear. By pressing "Next" you can summon a Zone (starting with "Zone_1) which you can now place.
@@ -230,6 +233,8 @@ If you need less zones just delete the Zone-objects, starting with the highest v
 
 
 ## Recording and Replay
+
+*Note: This step is optional*<br />
 
 ARoMA can record the hand and head movement of the user for all build-steps(except step 0 and the last step(build-complete)). 
 If you are not interested you can disable this function in the ARoMA program in Unity. In the Hierarchy go to AssemblyDirector->CursorFocus and uncheck the "World Cursor" Script in the Inspector window. 
