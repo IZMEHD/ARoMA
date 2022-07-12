@@ -290,7 +290,7 @@ Now you can Play/Pause the recording or single-step through the recording by pre
  
 
 ## Additional assembly hints
-It is possible to not only have the digital-twin as assembly guit, but also use supplementary text or image instructions.
+It is possible to not only have the digital-twin as assembly guide, but also use supplementary text or image instructions.
 
 **Text**<br />
 For test hints simply use the provided "Hint1" object under "3D_Model" in the Hierarchy window. Under *Hint1->group_0_15277357->Canvas->Text* you can enter a instruction under the "Text" field in the Inspector window. 
